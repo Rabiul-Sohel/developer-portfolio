@@ -132,12 +132,48 @@ main section {
 }
 
 /* Resume Section Style */
-.resume-container{
+.resume-container {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  gap: 50px;
 }
 .resume-column-title {
-  color:#474747;
+  color: #474747;
   font-size: 30px;
   font-weight: 700;
+}
+.resume-education-title,
+.resume-experience-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.resume-education-institute,
+.resume-experience-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+.resume-education-description,
+.resume-experience-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.download-cv{
+  margin-top: 50px;
+  text-align: center;
+}
+/* footer section style */
+footer{
+  display: flex;
+  padding: 130px 200px;
+  background: #FFF8F3;
+  margin-top: 100px;
+}
+.footer-column{
+  /* display: flex; */
 }
